@@ -22,17 +22,33 @@
 +------------------+------------------+------------------+------------------+
 </code>
 
+### Configuração Inicial
 <table>
 <tr><td>Comando</td><td>Descrição</td></tr>
-<tr><td colspan="2">### Configuração Inicial</td></tr>
-<tr><td><b><b>$ git config --global user.name "nome do usuario"</b></td><td>para adicionar o nome do usuário</td></tr>
-<tr><td><b><b>$ git config --global user.emai "seu_email@dominio.com"</b></td><td>para adicionar o email do usuário</td></tr>
-<tr><td colspan="2">### Como manipular o respositório</td></tr>
+<tr><td><b>>$ git config --global user.name "nome do usuario"</b></td><td>para adicionar o nome do usuário</td></tr>
+<tr><td><b>>$ git config --global user.emai "seu_email@dominio.com"</b></td><td>para adicionar o email do usuário</td></tr>
+</table>
+
+### Como manipular o respositório
+<table>
+<tr><td>Comando</td><td>Descrição</td></tr>
 <tr><td><b>$ git status</b></td><td>consultar o status dos arquivos no repositório</td></tr>
-<tr><td><b>$ git diff --staged</b></td><td>verificar a diferença entre arquivos</td></tr>
 <tr><td><b>$ git add .</b></td><td>enviar os arquivos modificados para a área de "staged" (passo antes do commit)</td></tr>
 <tr><td><b>$ git commit -m "Notas importantes da versão"</b>Efetiva as alterações da área "staged" e retorna os arquivos para a área "unmodified"</td></tr>
+<tr><td><b>$ git restore <nome_do_arquivo>"</b>restaura a versão que foi alterado mais ainda não está na área de staged</td></tr>
+<tr><td><b>$ git restore --staged <nome_do_arquivo>"</b>restaura a versão que está na área de staged</td></tr>
 </table>
+
+
+### Visualizar históricos 
+<table>
+<tr><td>Comando</td><td>Descrição</td></tr>
+<tr><td><b>$ git log</b></td><td>lista histórico das alterações realizadas</td></tr>
+<tr><td><b>$ git diff --staged</b></td><td>verificar a diferença entre o arquivo e o que está na área de staged</td></tr>
+<tr><td><b><b>$ git </b></td><td>para adicionar o email do usuário</td></tr>
+</table>
+
+
 
 <div>
 <a href="https://instagram.com/rbt.freitas" target="_blank"><img loading="lazy" src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
