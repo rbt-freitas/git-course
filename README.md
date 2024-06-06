@@ -54,7 +54,6 @@
 <tr><td>Comando</td><td>Descrição</td></tr>
 <tr><td><b>$ git log</b></td><td>lista histórico das alterações realizadas</td></tr>
 <tr><td><b>$ git diff --staged</b></td><td>verificar a diferença entre o arquivo e o que está na área de staged</td></tr>
-<tr><td><b><b>$ git </b></td><td>para adicionar o email do usuário</td></tr>
 </table>
 
 
