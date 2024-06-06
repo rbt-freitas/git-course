@@ -29,15 +29,21 @@
 <tr><td><b>>$ git config --global user.emai "seu_email@dominio.com"</b></td><td>para adicionar o email do usuário</td></tr>
 </table>
 
-### Como manipular o respositório
+### Manipulando o repositório local
 <table>
 <tr><td>Comando</td><td>Descrição</td></tr>
 <tr><td><b>$ git status</b></td><td>consultar o status dos arquivos no repositório</td></tr>
 <tr><td><b>$ git add .</b></td><td>enviar os arquivos modificados para a área de "staged" (passo antes do commit)</td></tr>
 <tr><td><b>$ git commit -m "Notas importantes da versão"</b></td><td>Efetiva as alterações da área "staged" e retorna os arquivos para a área "unmodified"</td></tr>
-<tr><td><b>$ git push"</b></td><td>envia as alterações para o respostório remoto</td></tr>
-<tr><td><b>$ git feth"</b></td><td>carrega os arquivos do repositório remoto no local</td></tr>
-<tr><td><b>$ git pull"</b></td><td>faz um merge dos arquivos do repositório remoto com os arquivos locais</td></tr>
+<tr><td><b>$ git push</b></td><td>envia as alterações para o respostório remoto</td></tr>
+</table>
+
+
+### Manipulando o respositório remoto 
+<table>
+<tr><td>Comando</td><td>Descrição</td></tr>
+<tr><td><b>$ git feth</b></td><td>carrega os arquivos do repositório remoto no local</td></tr>
+<tr><td><b>$ git pull</b></td><td>faz um merge dos arquivos do repositório remoto com os arquivos locais</td></tr>
 <tr><td><b>$ git restore <nome_do_arquivo>"</b></td><td>restaura a versão que foi alterado mais ainda não está na área de staged</td></tr>
 <tr><td><b>$ git restore --staged <nome_do_arquivo>"</b></td><td>restaura a versão que está na área de staged</td></tr>
 </table>
