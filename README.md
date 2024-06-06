@@ -25,8 +25,8 @@
 ### Configuração Inicial
 <table>
 <tr><td>Comando</td><td>Descrição</td></tr>
-<tr><td><b>>$ git config --global user.name "nome do usuario"</b></td><td>para adicionar o nome do usuário</td></tr>
-<tr><td><b>>$ git config --global user.emai "seu_email@dominio.com"</b></td><td>para adicionar o email do usuário</td></tr>
+<tr><td><b>$ git config --global user.name "nome do usuario"</b></td><td>para adicionar o nome do usuário</td></tr>
+<tr><td><b>$ git config --global user.emai "seu_email@dominio.com"</b></td><td>para adicionar o email do usuário</td></tr>
 </table>
 
 ### Manipulando o repositório local
