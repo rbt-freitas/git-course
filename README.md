@@ -1,6 +1,4 @@
-# Curso de Engenharia de Dados
-
-## Caderno de Notas: Git
+# Bloco de Anotações: Git
 
 ### Estados do Git
 <code>
