@@ -36,7 +36,6 @@
 <tr><td><b>$ git push</b></td><td>envia as alterações para o respostório remoto</td></tr>
 </table>
 
-
 ### Manipulando o respositório remoto 
 <table>
 <tr><td>Comando</td><td>Descrição</td></tr>
@@ -46,15 +45,21 @@
 <tr><td><b>$ git restore --staged {nome_do_arquivo}</b></td><td>restaura a versão que está na área de staged</td></tr>
 </table>
 
+### Criando Branch 
+<table>
+<tr><td>Comando</td><td>Descrição</td></tr>
+<tr><td><b>$ git branch {nome_da_branch}</b></td><td>cria uma nova branch</td></tr>
+<tr><td><b>$ git checkout {nome_da_branch}</b></td><td>ativa a branch informada, resposiciona o ponteiro (head) </td></tr>
+<tr><td><b>$ git merge {nome_da_branch}</b></td><td>realiza o merge entre a branch ativa e a branch informada</td></tr>
+</table>
 
 ### Visualizar históricos 
 <table>
 <tr><td>Comando</td><td>Descrição</td></tr>
 <tr><td><b>$ git log</b></td><td>lista histórico das alterações realizadas</td></tr>
 <tr><td><b>$ git diff --staged</b></td><td>verificar a diferença entre o arquivo e o que está na área de staged</td></tr>
+<tr><td><b>$ git log --online --decorate</b></td><td>indica para onde o ponteiro (head) esta apontando, e todos os commits que já foram feitos</td></tr>
 </table>
-
-
 
 <div>
 <a href="https://instagram.com/rbt.freitas" target="_blank"><img loading="lazy" src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
